@@ -14,9 +14,9 @@ export default function TelaAdm (){
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name='Inicio' component={telaInicial}options={{headerStyle:{backgroundColor:'darkgrey',height:50}}}/>
-          <Stack.Screen name='QRcode' component={telaQrCode}/>
-          <Stack.Screen name='BarCode' component={telaBarCode}/>
-          <Stack.Screen name='Text' component={telaText}/> 
+          <Stack.Screen name='QRcode' component={telaQrCode}options={{headerStyle:{backgroundColor:'darkgrey',height:50}}}/>
+          <Stack.Screen name='BarCode' component={telaBarCode}options={{headerStyle:{backgroundColor:'darkgrey',height:50}}}/>
+          <Stack.Screen name='Text' component={telaText}options={{headerStyle:{backgroundColor:'darkgrey',height:50}}}/> 
         </Stack.Navigator>  
       </NavigationContainer>
     </View>
